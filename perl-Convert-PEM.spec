@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Convert
-%define	pnam	PEM
+%define		pdir	Convert
+%define		pnam	PEM
 Summary:	Convert::PEM Perl module - access to ASN.1-encoded PEM files
 Summary(pl):	Modu³ Perla Convert::PEM - dostêp do plików PEM kodowanych ASN.1
 Name:		perl-Convert-PEM
