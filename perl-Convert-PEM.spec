@@ -33,7 +33,7 @@ zaszyfrowane algorytmem symetrycznym, takim jak na przyk³ad 3DES.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
