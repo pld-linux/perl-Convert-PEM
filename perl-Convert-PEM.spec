@@ -35,7 +35,7 @@ zaszyfrowane algorytmem symetrycznym, takim jak na przyk³ad 3DES.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
