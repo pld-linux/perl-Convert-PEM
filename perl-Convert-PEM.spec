@@ -9,6 +9,7 @@ Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	1f15fa7ee5026e722d1ac6855eff39e3
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Convert-ASN1 >= 0.10
 BuildRequires:	perl-Crypt-DES_EDE3
