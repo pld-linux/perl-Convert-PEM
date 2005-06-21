@@ -12,10 +12,10 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d2188dd87446004c8da882b5a1f20412
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-Class-ErrorHandler
 BuildRequires:	perl-Convert-ASN1 >= 0.10
 BuildRequires:	perl-Crypt-DES_EDE3
 BuildRequires:	perl-Digest-MD5
-BuildRequires:	perl-Class-ErrorHandler
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl(Convert::ASN1) >= 0.10
 Requires:	perl-Crypt-DES_EDE3
