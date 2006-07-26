@@ -11,6 +11,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d2188dd87446004c8da882b5a1f20412
+URL:		http://search.cpan.org/dist/Convert-PEM/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Class-ErrorHandler
 BuildRequires:	perl-Convert-ASN1 >= 0.10
