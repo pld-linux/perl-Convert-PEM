@@ -2,7 +2,7 @@
 %define		pdir	Convert
 %define		pnam	PEM
 Summary:	Convert::PEM Perl module - access to ASN.1-encoded PEM files
-Summary(pl):	Modu³ Perla Convert::PEM - dostêp do plików PEM kodowanych ASN.1
+Summary(pl.UTF-8):   ModuÅ‚ Perla Convert::PEM - dostÄ™p do plikÃ³w PEM kodowanych ASN.1
 Name:		perl-Convert-PEM
 Version:	0.07
 Release:	1
@@ -28,10 +28,10 @@ Convert::PEM reads and writes PEM files containing ASN.1-encoded
 objects. The files can optionally be encrypted using a symmetric
 cipher algorithm, such as 3DES.
 
-%description -l pl
-Modu³ Convert::PEM s³u¿y do odczytu i zapisu plików PEM zawieraj±cych
-obiekty zakodowane zgodnie z ASN.1. Pliki mog± byæ opcjonalne
-zaszyfrowane algorytmem symetrycznym, takim jak na przyk³ad 3DES.
+%description -l pl.UTF-8
+ModuÅ‚ Convert::PEM sÅ‚uÅ¼y do odczytu i zapisu plikÃ³w PEM zawierajÄ…cych
+obiekty zakodowane zgodnie z ASN.1. Pliki mogÄ… byÄ‡ opcjonalne
+zaszyfrowane algorytmem symetrycznym, takim jak na przykÅ‚ad 3DES.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
