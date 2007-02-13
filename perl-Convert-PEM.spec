@@ -2,7 +2,7 @@
 %define		pdir	Convert
 %define		pnam	PEM
 Summary:	Convert::PEM Perl module - access to ASN.1-encoded PEM files
-Summary(pl.UTF-8):   Moduł Perla Convert::PEM - dostęp do plików PEM kodowanych ASN.1
+Summary(pl.UTF-8):	Moduł Perla Convert::PEM - dostęp do plików PEM kodowanych ASN.1
 Name:		perl-Convert-PEM
 Version:	0.07
 Release:	1
