@@ -4,13 +4,13 @@
 Summary:	Convert::PEM Perl module - access to ASN.1-encoded PEM files
 Summary(pl.UTF-8):	Moduł Perla Convert::PEM - dostęp do plików PEM kodowanych ASN.1
 Name:		perl-Convert-PEM
-Version:	0.07
-Release:	2
+Version:	0.08
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d2188dd87446004c8da882b5a1f20412
+# Source0-md5:	a55c927457035806228e62b403551f13
 URL:		http://search.cpan.org/dist/Convert-PEM/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Class-ErrorHandler
@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README ToDo
+%doc Changes README
 %{perl_vendorlib}/Convert/PEM.pm
 %{perl_vendorlib}/Convert/PEM
 %{_mandir}/man3/*
